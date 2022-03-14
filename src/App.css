@@ -1,0 +1,41 @@
+.App {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.closebtn{
+  background-color: red;
+  border: none;
+}
+
+.closebtn:active{
+  background-color: aqua;
+}
+
+.formInput{
+  width: 250px;
+  height: 35px;
+  font-size: 30px;
+  background-color: #000;
+  color: aqua;
+}
+
+.todos{
+  font-size: 20px;
+}
+
+.List{
+  text-align: left;
+}
+
+.History{
+  display: table;
+
+}
+
+.completed {
+  text-decoration: line-through;
+  cursor: pointer;
+}
